@@ -14,11 +14,13 @@ main {
   flex-direction: column;
 }
 
-.info--hero h1 {
+.title__info--hero,
+.description__info--hero {
+  color: #333;
   text-align: center;
 }
 
-.info--hero p {
+.description__info--hero {
   hyphens: auto;
 }
 
@@ -34,7 +36,7 @@ main {
   background-size: cover;
 }
 
-.btn--hero{
+.btn--hero {
   color: #fd8801;
   width: 140px;
   height: 38px;
@@ -45,7 +47,31 @@ main {
   background-color: transparent;
 }
 
-.btn--hero:hover{
-  color: #FFF;
+.btn--hero:hover {
+  color: #fff;
   background-color: #fd8801;
+}
+
+.dishes{
+  margin: 100px 0;
+}
+
+.dishes-image__container {
+  display: flex;
+  min-width: 288px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.dishes-title{
+  color: #333;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.dishes-item {
+  width: 90%;
+  margin-top: 10px;
+  background-size: cover;
 }
