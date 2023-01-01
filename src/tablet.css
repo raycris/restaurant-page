@@ -1,0 +1,14 @@
+.hero {
+  display: grid;
+  grid-auto-rows: 400px;
+  grid-template-columns: 2fr 3fr;
+}
+.info--hero{
+  align-self: center;
+}
+
+.image--hero {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}

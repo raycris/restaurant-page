@@ -1,0 +1,21 @@
+.contenedor {
+  gap: 36px;
+  height: 600px;
+  display: grid;
+  place-content: center;
+  background-color: #39630c;
+  grid-template-rows: repeat(2, 150px);
+  grid-template-columns: repeat(2, 150px);
+}
+
+.item {
+  display: grid;
+  place-items: end;
+  background-color: #acd900;
+}
+
+span {
+  width: 50px;
+  height: 70px;
+  background-color: #61a91d;
+}
